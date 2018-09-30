@@ -1,0 +1,75 @@
+body{background-image: url(pink_rice/pink_rice.png);
+color:gray 
+}
+
+.jumbotron {border-style: solid;
+border: 2px;
+border-color: #cfe8e4}
+@keyframes ripple {
+    from {opacity:0;}
+    to {opacity:4;}
+    
+}
+
+/* The element to apply the animation to */
+em {
+    /* width: 100px;
+    height: 100px; */
+    color:#c4a1a8;
+    opacity:0;
+    animation-name: ripple;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+   
+}
+/* em{color:#c4a1a8 } */
+
+    #imageLinkOne {Position: absolute;
+        width: 210px;
+        left:60px;
+        top: 235px;
+        padding: 10px;
+        text-align: center;
+        background-color: #5ba;
+        color: white}
+    
+        #imageLinkTwo {Position: absolute;
+        width: 210px;
+        left:60px;
+        top: 235px;
+        padding: 10px;
+        background-color: #5ba;
+        text-align: center;
+        color: white}
+     
+        #imageLinkThree {Position: absolute;
+        width: 210px;
+        left:60px;
+        top: 260px;
+        text-align: center;
+        padding: 10px;
+        background-color: #5ba;
+        color: white;
+        clear:both}
+        #imageLinkFour {Position: absolute;
+        width: 210px;
+        left:60px;
+        top: 260px;
+        text-align: center;
+        padding: 10px;
+        background-color: #5ba;
+        color: white}
+     
+        #imageLinkFive {Position: absolute;
+        width: 210px;
+        left:60px;
+        top: 265px;
+        text-align: center;
+        padding: 10px;
+        clear:both;
+        background-color: #5ba;
+        color: white}
+                 
+    
+      
+        
